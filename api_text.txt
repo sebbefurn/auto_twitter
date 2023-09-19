@@ -1,0 +1,1 @@
+I'm only going to use the API for posting tweets from a different interface. It's a project I'm experimenting with and would appreciate access to the API in order to make it a reality. It's only for me and no one else is using it. it's really just for posting tweets really.
