@@ -17,3 +17,14 @@ The {account} you will write about is: {name}
 
 Remember to separate each tweet with "######".
 """
+
+def quote_template(name):
+    return f"Give me an interesting and entertaining quote by {name} and only display the quote with the name afterwards"
+
+def image_prompt_template(tweet_content):
+    return f"""
+Based on the quote and the person who wrote it, I want you to create an image prompt for midjourney to create an AI image with the person who wrote the quote as the main focus of the image with the quote influencing it.
+Alse don't write anything in your answer besides the quote. I want to put your answer directly into midjourney.
+Here is the quote:
+{tweet_content}
+"""
